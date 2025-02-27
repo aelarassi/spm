@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "abdel_sdk",
-            url: "https://raw.githubusercontent.com/aelarassi/spm/main/abdel_sdk.xcframework.zip",
+            url: "https://github.com/aelarassi/spm/releases/download/1.0.0/abdel_sdk.xcframework.zip",
             checksum: "6c2bb0f6806ef32d437cb8403a5c42501a34b68e7493e323d549ce4323f118d3"
         ),
         .testTarget(
